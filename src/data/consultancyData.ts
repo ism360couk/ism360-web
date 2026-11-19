@@ -38,7 +38,7 @@ export interface FaqItem {
 
 export const CONTACT_INFO = {
   company: 'ISM360 Ltd',
-  consultant: 'Tom Jones',
+  consultant: 'Thomas Jones',
   role: 'Principal Information Security Consultant',
   email: 'tom.jones@ism360.co.uk',
   phoneDisplay: '07776 238250',
@@ -67,7 +67,7 @@ export const HERO_METRICS = [
   {
     value: 'Direct',
     label: 'Senior Consultant Access',
-    context: 'Delivered personally by Tom Jones',
+    context: 'Delivered personally by Thomas Jones',
   },
 ];
 
@@ -323,6 +323,6 @@ export const FAQ_ITEMS: FaqItem[] = [
     id: 'faq-engagement',
     question: 'Who actually delivers the consultancy work at ISM360 Ltd?',
     answer:
-      'Every engagement is scoped and delivered directly by Principal Consultant Tom Jones. There is no hand-off to junior analysts—you work directly with an experienced information security consultant from initial gap analysis through certification.',
+      'Every engagement is scoped and delivered directly by Principal Consultant Thomas Jones. There is no hand-off to junior analysts—you work directly with an experienced information security consultant from initial gap analysis through certification.',
   },
 ];

@@ -55,7 +55,7 @@ export function AboutAndProofSection({onBookClick}: AboutAndProofSectionProps) {
                 className="mt-2 font-display text-2xl font-bold tracking-tight text-white sm:text-3xl"
                 style={{textWrap: 'balance'}}
               >
-                Direct senior guidance from Tom Jones—no junior hand-offs
+                Direct senior guidance from Thomas Jones—no junior hand-offs
               </h2>
               <p className="mt-4 max-w-2xl text-base leading-relaxed text-slate-200">
                 When you appoint ISM360 Ltd, you work directly with {CONTACT_INFO.consultant}. With hands-on
@@ -71,7 +71,7 @@ export function AboutAndProofSection({onBookClick}: AboutAndProofSectionProps) {
                   rel="noopener noreferrer"
                   className="inline-flex min-h-[40px] items-center gap-1.5 font-semibold text-sky-300 whitespace-nowrap shrink-0 hover:text-white hover:underline hover:underline-offset-4 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sky-300"
                 >
-                  <span>View Tom Jones on LinkedIn</span>
+                  <span>View Thomas Jones on LinkedIn</span>
                   <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
                 </a>
 

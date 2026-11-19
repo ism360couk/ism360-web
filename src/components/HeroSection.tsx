@@ -64,7 +64,7 @@ export function HeroSection({onPrimaryCta}: HeroSectionProps) {
             </div>
 
             <div className="mt-10 border-t border-slate-200 pt-5 text-sm text-slate-600">
-              <span>Direct consultation with Tom Jones</span>
+              <span>Direct consultation with Thomas Jones</span>
               <span aria-hidden="true" className="mx-2 text-slate-400">·</span>
               <a
                 href={`mailto:${CONTACT_INFO.email}`}

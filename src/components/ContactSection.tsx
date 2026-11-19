@@ -110,7 +110,7 @@ export function ContactSection({preselectedService}: ContactSectionProps) {
               className="mt-2 font-display text-2xl font-bold tracking-tight text-[#0B2545] sm:text-3xl"
               style={{textWrap: 'balance'}}
             >
-              Speak directly with Tom Jones about your security goals
+              Speak directly with Thomas Jones about your security goals
             </h2>
             <p className="mt-4 text-base leading-relaxed text-slate-600">
               Tell us which accreditation or governance support your software team needs. Expect a straightforward,
