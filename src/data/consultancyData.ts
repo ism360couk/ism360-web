@@ -294,6 +294,30 @@ export const SOFTWARE_PROOF_POINTS = [
   },
 ];
 
+export interface RegionalArea {
+  area: string;
+  coverage: string;
+  focus: string;
+}
+
+export const REGIONAL_COVERAGE: RegionalArea[] = [
+  {
+    area: 'Newbury & Berkshire',
+    coverage: 'Newbury, Reading, Bracknell, Maidenhead, Windsor & Slough',
+    focus: 'On-site Cyber Essentials Plus checks, ISO 27001 gap workshops & internal audits across the M4 tech corridor.',
+  },
+  {
+    area: 'Oxford & Oxfordshire',
+    coverage: 'Oxford, Abingdon, Didcot, Harwell, Bicester & Banbury',
+    focus: 'ISO 27001:2022 ISMS implementation, DPIA governance & external DPO support for SaaS and spin-out tech teams.',
+  },
+  {
+    area: 'Hampshire & Wiltshire',
+    coverage: 'Basingstoke, Winchester, Farnborough, Southampton, Swindon & Salisbury',
+    focus: 'Cyber Essentials, CE+ readiness & defence/enterprise supply-chain accreditation support.',
+  },
+];
+
 export const FAQ_ITEMS: FaqItem[] = [
   {
     id: 'faq-timeline',
@@ -306,6 +330,12 @@ export const FAQ_ITEMS: FaqItem[] = [
     question: 'Should our software company start with Cyber Essentials or go straight to ISO 27001?',
     answer:
       'If you need rapid proof of baseline technical controls for UK public sector or mid-market buyers, Cyber Essentials and CE+ provide the fastest return. If enterprise procurement requires formal governance, risk management, and an ISMS, ISO 27001:2022 is the right standard—and the technical controls from Cyber Essentials map directly into ISO 27001.',
+  },
+  {
+    id: 'faq-local',
+    question: 'Do you offer on-site Cyber Essentials and ISO 27001 support in Newbury, Reading, Oxford, and nearby counties?',
+    answer:
+      'Yes. ISM360 Ltd works directly on-site with software and technology companies across Newbury, Reading, Oxford, Berkshire, Oxfordshire, Hampshire, and Wiltshire—and delivers remote consultancy for distributed teams across the wider UK.',
   },
   {
     id: 'faq-dpo',
@@ -326,3 +356,4 @@ export const FAQ_ITEMS: FaqItem[] = [
       'Every engagement is scoped and delivered directly by Principal Consultant Thomas Jones. There is no hand-off to junior analysts—you work directly with an experienced information security consultant from initial gap analysis through certification.',
   },
 ];
+

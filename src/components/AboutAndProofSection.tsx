@@ -1,5 +1,5 @@
 import {ArrowUpRight, Mail, Phone} from 'lucide-react';
-import {CONTACT_INFO, SOFTWARE_PROOF_POINTS} from '../data/consultancyData';
+import {CONTACT_INFO, REGIONAL_COVERAGE, SOFTWARE_PROOF_POINTS} from '../data/consultancyData';
 
 interface AboutAndProofSectionProps {
   onBookClick: () => void;
@@ -58,10 +58,10 @@ export function AboutAndProofSection({onBookClick}: AboutAndProofSectionProps) {
                 Direct senior guidance from Thomas Jones—no junior hand-offs
               </h2>
               <p className="mt-4 max-w-2xl text-base leading-relaxed text-slate-200">
-                When you appoint ISM360 Ltd, you work directly with {CONTACT_INFO.consultant}. With hands-on
-                experience guiding UK software businesses through Cyber Essentials, CE+, ISO 27001
-                certifications, internal audit programmes, and GDPR Data Protection Officer responsibilities,
-                every control is explained in plain English and tailored to your commercial goals.
+                When you appoint ISM360 Ltd, you work directly with {CONTACT_INFO.consultant}. Based in the
+                Thames Valley with hands-on experience guiding software businesses across Newbury, Reading,
+                Oxford, and surrounding counties through Cyber Essentials, CE+, ISO 27001 certifications,
+                internal audits, and UK GDPR DPO responsibilities, every control is explained in plain English.
               </p>
 
               <div className="mt-7 flex flex-wrap items-center gap-5 text-sm">
@@ -114,7 +114,38 @@ export function AboutAndProofSection({onBookClick}: AboutAndProofSectionProps) {
             </div>
           </div>
         </div>
+
+        {/* Regional Service Coverage for Local SEO */}
+        <div className="mt-14 border-t border-slate-200 pt-12">
+          <div className="max-w-2xl">
+            <p className="text-sm font-semibold text-[#0277BD]">Regional &amp; UK-Wide Coverage</p>
+            <h3
+              className="mt-2 font-display text-xl font-bold tracking-tight text-[#0B2545] sm:text-2xl"
+              style={{textWrap: 'balance'}}
+            >
+              On-site Cyber Essentials &amp; ISO 27001 support across Berkshire, Oxfordshire, Hampshire &amp; Wiltshire
+            </h3>
+            <p className="mt-2 text-sm leading-relaxed text-slate-600 sm:text-base">
+              Available for face-to-face workshops, readiness reviews, and internal audits across the M4 and
+              Thames Valley corridor, as well as remote engagements nationwide.
+            </p>
+          </div>
+
+          <div className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-3">
+            {REGIONAL_COVERAGE.map((region) => (
+              <div
+                key={region.area}
+                className="rounded-xl border border-slate-200 bg-slate-50/70 p-6"
+              >
+                <h4 className="font-display text-base font-bold text-[#0E3B6E]">{region.area}</h4>
+                <p className="mt-1.5 text-xs font-semibold text-slate-700">{region.coverage}</p>
+                <p className="mt-3 text-sm leading-relaxed text-slate-600">{region.focus}</p>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   );
 }
+

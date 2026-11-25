@@ -20,9 +20,9 @@ export function HeroSection({onPrimaryCta}: HeroSectionProps) {
           <div className="flex flex-col justify-between lg:col-span-7">
             <div>
               <p className="text-sm font-medium text-slate-600">
-                UK Information Security Consultancy
+                Information Security Consultancy
                 <span aria-hidden="true" className="mx-2 text-slate-400">·</span>
-                Built for Small Software Companies
+                Newbury, Reading, Oxford &amp; UK-Wide
               </p>
 
               <h1
@@ -37,7 +37,11 @@ export function HeroSection({onPrimaryCta}: HeroSectionProps) {
               </h1>
 
               <p className="mt-5 max-w-2xl text-base leading-relaxed text-slate-600 sm:text-lg">
-                ISM360 Ltd helps growing UK software and SaaS teams achieve{' '}
+                ISM360 Ltd helps small software and SaaS companies across{' '}
+                <strong className="font-semibold text-slate-900">
+                  Berkshire, Oxfordshire, Hampshire, Wiltshire
+                </strong>
+                , and the wider UK achieve{' '}
                 <strong className="font-semibold text-slate-900">Cyber Essentials</strong>,{' '}
                 <strong className="font-semibold text-slate-900">Cyber Essentials Plus (CE+)</strong>, and{' '}
                 <strong className="font-semibold text-slate-900">ISO 27001:2022</strong> certification, alongside

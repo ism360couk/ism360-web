@@ -113,8 +113,9 @@ export function ContactSection({preselectedService}: ContactSectionProps) {
               Speak directly with Thomas Jones about your security goals
             </h2>
             <p className="mt-4 text-base leading-relaxed text-slate-600">
-              Tell us which accreditation or governance support your software team needs. Expect a straightforward,
-              no-obligation reply within one UK business day.
+              Tell us which accreditation or governance support your software team needs. Available on-site across
+              Newbury, Reading, Oxford, Berkshire, Oxfordshire, Hampshire, and Wiltshire, or remotely UK-wide—expect
+              a straightforward reply within one business day.
             </p>
 
             <div className="mt-8 space-y-4 border-t border-slate-200 pt-6">

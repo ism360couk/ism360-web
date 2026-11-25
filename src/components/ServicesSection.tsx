@@ -19,7 +19,8 @@ export function ServicesSection({onSelectService}: ServicesSectionProps) {
           </h2>
           <p className="mt-3 text-base leading-relaxed text-slate-600">
             Whether a prospective client has asked for Cyber Essentials Plus before contract signature or you are
-            building an ISO 27001 ISMS from scratch, every engagement delivers clear, auditable outcomes.
+            building an ISO 27001 ISMS from scratch, ISM360 Ltd delivers clear, auditable outcomes—on-site across
+            Newbury, Reading, Oxford, and neighbouring counties, or remotely across the UK.
           </p>
         </div>
 

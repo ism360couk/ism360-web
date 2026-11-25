@@ -20,8 +20,9 @@ export function Footer() {
               </span>
             </div>
             <p className="mt-3 text-sm leading-relaxed text-slate-600">
-              Information security &amp; cyber security consultancy services for UK software companies.
-              Cyber Essentials, CE+, ISO 27001, internal audits, and external DPO support.
+              Information security &amp; cyber security consultancy for software companies in Newbury, Reading,
+              Oxford, Berkshire, Oxfordshire, Hampshire &amp; Wiltshire. Cyber Essentials, CE+, ISO 27001, internal
+              audits, and external DPO support.
             </p>
           </div>
 
